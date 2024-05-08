@@ -1,10 +1,9 @@
-import ListMarkdown from "@/components/markdown/listMarkdown";
+import PostList from "@/components/blog/postList";
 
 export default function Home() {
   return (
     <div>
-        <h1>Home</h1>
-        <ListMarkdown />
+        <PostList />
     </div>
   );
 }
